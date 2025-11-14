@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Predictions | FoodWaste AI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-leaf"></i>
+            <span>FoodWaste AI</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="dashboard.html" class="nav-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="add-data.html" class="nav-item">
+                <i class="fas fa-plus-circle"></i>
+                <span>Add Waste Data</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-calendar-day"></i>
+                <span>Daily Logs</span>
+            </a>
+            <a href="prediction.html" class="nav-item active">
+                <i class="fas fa-robot"></i>
+                <span>AI Predictions</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-chart-bar"></i>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>AI Predictions</h1>
+            <p>Intelligent forecasts to help you reduce waste and optimize operations</p>
+        </header>
+
+        <div class="predictions-container">
+            <!-- Main Prediction Card -->
+            <div class="prediction-card main-prediction">
+                <div class="prediction-header">
+                    <i class="fas fa-crystal-ball"></i>
+                    <h2>Tomorrow's Waste Prediction</h2>
+                </div>
+                <div class="prediction-content">
+                    <div class="prediction-value">
+                        <span class="value">18</span>
+                        <span class="unit">kg</span>
+                    </div>
+                    <p class="prediction-description">Expected waste based on historical data and patterns</p>
+                    <div class="prediction-indicator positive">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Within normal range</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Warning Prediction Card -->
+            <div class="prediction-card warning-prediction">
+                <div class="prediction-header">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h2>High Waste Alert</h2>
+                </div>
+                <div class="prediction-content">
+                    <div class="prediction-item">
+                        <i class="fas fa-hamburger"></i>
+                        <div>
+                            <h3>Rice</h3>
+                            <p>High waste predicted for this item</p>
+                        </div>
+                    </div>
+                    <div class="prediction-recommendation">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Recommendation: Reduce preparation by 10%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item-wise Predictions -->
+            <div class="prediction-card">
+                <div class="prediction-header">
+                    <i class="fas fa-list"></i>
+                    <h2>Item-wise Predictions</h2>
+                </div>
+                <div class="prediction-list">
+                    <div class="prediction-item-card">
+                        <div class="item-icon">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>Bread</h3>
+                            <p>Predicted: 3.5 kg</p>
+                        </div>
+                        <div class="item-status good">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="prediction-item-card">
+                        <div class="item-icon">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>Curry</h3>
+                            <p>Predicted: 5.2 kg</p>
+                        </div>
+                        <div class="item-status warning">
+                            <i class="fas fa-exclamation"></i>
+                        </div>
+                    </div>
+                    <div class="prediction-item-card">
+                        <div class="item-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>Vegetables</h3>
+                            <p>Predicted: 2.8 kg</p>
+                        </div>
+                        <div class="item-status good">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="prediction-item-card">
+                        <div class="item-icon">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <div class="item-details">
+                            <h3>Fish</h3>
+                            <p>Predicted: 4.1 kg</p>
+                        </div>
+                        <div class="item-status good">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weekly Forecast -->
+            <div class="prediction-card">
+                <div class="prediction-header">
+                    <i class="fas fa-calendar-week"></i>
+                    <h2>Weekly Forecast</h2>
+                </div>
+                <div class="forecast-list">
+                    <div class="forecast-item">
+                        <span class="forecast-day">Monday</span>
+                        <span class="forecast-value">15 kg</span>
+                        <div class="forecast-bar">
+                            <div class="forecast-fill" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="forecast-item">
+                        <span class="forecast-day">Tuesday</span>
+                        <span class="forecast-value">18 kg</span>
+                        <div class="forecast-bar">
+                            <div class="forecast-fill" style="width: 72%"></div>
+                        </div>
+                    </div>
+                    <div class="forecast-item">
+                        <span class="forecast-day">Wednesday</span>
+                        <span class="forecast-value">12 kg</span>
+                        <div class="forecast-bar">
+                            <div class="forecast-fill" style="width: 48%"></div>
+                        </div>
+                    </div>
+                    <div class="forecast-item">
+                        <span class="forecast-day">Thursday</span>
+                        <span class="forecast-value">20 kg</span>
+                        <div class="forecast-bar">
+                            <div class="forecast-fill warning" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="forecast-item">
+                        <span class="forecast-day">Friday</span>
+                        <span class="forecast-value">16 kg</span>
+                        <div class="forecast-bar">
+                            <div class="forecast-fill" style="width: 64%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
