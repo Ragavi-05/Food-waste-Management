@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics | FoodWaste AI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-leaf"></i>
+            <span>FoodWaste AI</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="dashboard.html" class="nav-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="add-data.html" class="nav-item">
+                <i class="fas fa-plus-circle"></i>
+                <span>Add Waste Data</span>
+            </a>
+            <a href="analytics.html" class="nav-item active">
+                <i class="fas fa-calendar-day"></i>
+                <span>Daily Logs</span>
+            </a>
+            <a href="prediction.html" class="nav-item">
+                <i class="fas fa-robot"></i>
+                <span>AI Predictions</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-chart-bar"></i>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>Analytics & Reports</h1>
+            <p>Comprehensive analysis of your food waste data</p>
+        </header>
+
+        <!-- Filters -->
+        <div class="filters-section">
+            <div class="filter-card">
+                <h3><i class="fas fa-filter"></i> Filters</h3>
+                <div class="filters-grid">
+                    <div class="form-group">
+                        <label for="filter-date-from">
+                            <i class="fas fa-calendar"></i> From Date
+                        </label>
+                        <input type="date" id="filter-date-from" name="dateFrom">
+                    </div>
+                    <div class="form-group">
+                        <label for="filter-date-to">
+                            <i class="fas fa-calendar"></i> To Date
+                        </label>
+                        <input type="date" id="filter-date-to" name="dateTo">
+                    </div>
+                    <div class="form-group">
+                        <label for="filter-meal">
+                            <i class="fas fa-utensils"></i> Meal Type
+                        </label>
+                        <select id="filter-meal" name="mealType">
+                            <option value="">All Meals</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="filter-location">
+                            <i class="fas fa-map-marker-alt"></i> Location
+                        </label>
+                        <select id="filter-location" name="location">
+                            <option value="">All Locations</option>
+                            <option value="hotel">Hotel</option>
+                            <option value="restaurant">Restaurant</option>
+                            <option value="canteen">Canteen</option>
+                            <option value="hostel">Hostel</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-actions">
+                    <button type="button" class="btn btn-primary" id="apply-filters">
+                        <i class="fas fa-search"></i> Apply Filters
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="reset-filters">
+                        <i class="fas fa-redo"></i> Reset
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="analytics-charts">
+            <div class="chart-card">
+                <h3>Waste Trend Over Time</h3>
+                <canvas id="analyticsLineChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Waste by Category</h3>
+                <canvas id="analyticsBarChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="table-section">
+            <div class="table-header">
+                <h3><i class="fas fa-table"></i> Daily Waste Logs</h3>
+                <button type="button" class="btn btn-primary" id="download-report">
+                    <i class="fas fa-download"></i> Download Report
+                </button>
+            </div>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Meal Type</th>
+                            <th>Food Item</th>
+                            <th>Prepared (kg)</th>
+                            <th>Consumed (kg)</th>
+                            <th>Waste (kg)</th>
+                            <th>Location</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody id="waste-table-body">
+                        <!-- Table rows will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+

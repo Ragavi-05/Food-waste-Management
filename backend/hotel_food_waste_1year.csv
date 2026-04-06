@@ -1,0 +1,366 @@
+record_id,hotel_name,date,meal_type,food_item,quantity_wasted_kg,reason
+1,Hotel Buffet,2025-01-01,Breakfast,Sambar,3.17,Expired
+2,Hotel Buffet,2025-01-02,Breakfast,Pizza,3.56,Customer Leftover
+3,Hotel Buffet,2025-01-03,Breakfast,Chicken Curry,2.61,Overproduction
+4,Hotel Buffet,2025-01-04,Breakfast,Fried Rice,3.11,Plate Waste
+5,Hotel Buffet,2025-01-05,Dinner,Paneer Curry,4.96,Improper Storage
+6,Hotel Buffet,2025-01-06,Dinner,Biryani,3.8,Overproduction
+7,Hotel Buffet,2025-01-07,Dinner,Sambar,0.73,Preparation Waste
+8,Hotel Buffet,2025-01-08,Dinner,Paneer Curry,3.63,Preparation Waste
+9,Hotel Buffet,2025-01-09,Breakfast,Paneer Curry,0.55,Overproduction
+10,Hotel Buffet,2025-01-10,Dinner,Paneer Curry,3.31,Improper Storage
+11,Hotel Buffet,2025-01-11,Lunch,Idli,3.56,Customer Leftover
+12,Hotel Buffet,2025-01-12,Dinner,Sambar,3.14,Customer Leftover
+13,Hotel Buffet,2025-01-13,Lunch,Bread,2.47,Expired
+14,Hotel Buffet,2025-01-14,Dinner,Sambar,2.16,Overproduction
+15,Hotel Buffet,2025-01-15,Dinner,Fried Rice,0.63,Preparation Waste
+16,Hotel Buffet,2025-01-16,Lunch,Bread,3.72,Improper Storage
+17,Hotel Buffet,2025-01-17,Breakfast,Dosa,3.81,Improper Storage
+18,Hotel Buffet,2025-01-18,Breakfast,Dosa,4.61,Customer Leftover
+19,Hotel Buffet,2025-01-19,Dinner,Sandwich,3.7,Customer Leftover
+20,Hotel Buffet,2025-01-20,Dinner,Sambar,2.61,Customer Leftover
+21,Hotel Buffet,2025-01-21,Lunch,Paneer Curry,1.49,Customer Leftover
+22,Hotel Buffet,2025-01-22,Dinner,Rice,1.2,Customer Leftover
+23,Hotel Buffet,2025-01-23,Breakfast,Burger,3.87,Preparation Waste
+24,Hotel Buffet,2025-01-24,Breakfast,Paneer Curry,1.32,Overproduction
+25,Hotel Buffet,2025-01-25,Breakfast,Pasta,3.09,Expired
+26,Hotel Buffet,2025-01-26,Lunch,Pasta,3.64,Customer Leftover
+27,Hotel Buffet,2025-01-27,Breakfast,Fried Rice,4.17,Customer Leftover
+28,Hotel Buffet,2025-01-28,Dinner,Pasta,4.74,Customer Leftover
+29,Hotel Buffet,2025-01-29,Breakfast,Pasta,0.99,Expired
+30,Hotel Buffet,2025-01-30,Lunch,Idli,2.78,Customer Leftover
+31,Hotel Buffet,2025-01-31,Breakfast,Biryani,2.88,Expired
+32,Hotel Buffet,2025-02-01,Lunch,Bread,3.36,Plate Waste
+33,Hotel Buffet,2025-02-02,Breakfast,Upma,2.44,Preparation Waste
+34,Hotel Buffet,2025-02-03,Dinner,Idli,3.95,Customer Leftover
+35,Hotel Buffet,2025-02-04,Lunch,Idli,3.1,Expired
+36,Hotel Buffet,2025-02-05,Breakfast,Pizza,2.25,Customer Leftover
+37,Hotel Buffet,2025-02-06,Dinner,Upma,2.24,Overproduction
+38,Hotel Buffet,2025-02-07,Lunch,Sambar,1.86,Customer Leftover
+39,Hotel Buffet,2025-02-08,Breakfast,Sambar,1.06,Improper Storage
+40,Hotel Buffet,2025-02-09,Lunch,Biryani,2.98,Plate Waste
+41,Hotel Buffet,2025-02-10,Breakfast,Burger,4.74,Preparation Waste
+42,Hotel Buffet,2025-02-11,Dinner,Upma,2.81,Plate Waste
+43,Hotel Buffet,2025-02-12,Dinner,Pizza,3.48,Preparation Waste
+44,Hotel Buffet,2025-02-13,Dinner,Chicken Curry,4.16,Preparation Waste
+45,Hotel Buffet,2025-02-14,Dinner,Noodles,4.79,Preparation Waste
+46,Hotel Buffet,2025-02-15,Lunch,Noodles,4.18,Preparation Waste
+47,Hotel Buffet,2025-02-16,Lunch,Rice,2.36,Customer Leftover
+48,Hotel Buffet,2025-02-17,Dinner,Chicken Curry,1.82,Plate Waste
+49,Hotel Buffet,2025-02-18,Breakfast,Bread,1.4,Expired
+50,Hotel Buffet,2025-02-19,Lunch,Upma,1.38,Customer Leftover
+51,Hotel Buffet,2025-02-20,Dinner,Pasta,4.26,Overproduction
+52,Hotel Buffet,2025-02-21,Lunch,Dosa,2.45,Overproduction
+53,Hotel Buffet,2025-02-22,Dinner,Rice,2.95,Overproduction
+54,Hotel Buffet,2025-02-23,Dinner,Idli,0.74,Plate Waste
+55,Hotel Buffet,2025-02-24,Lunch,Upma,4.05,Overproduction
+56,Hotel Buffet,2025-02-25,Dinner,Pizza,0.86,Plate Waste
+57,Hotel Buffet,2025-02-26,Dinner,Rice,4.36,Preparation Waste
+58,Hotel Buffet,2025-02-27,Breakfast,Burger,0.86,Preparation Waste
+59,Hotel Buffet,2025-02-28,Breakfast,Paneer Curry,1.31,Preparation Waste
+60,Hotel Buffet,2025-03-01,Dinner,Sambar,4.24,Customer Leftover
+61,Hotel Buffet,2025-03-02,Lunch,Sambar,0.51,Expired
+62,Hotel Buffet,2025-03-03,Dinner,Sandwich,3.17,Expired
+63,Hotel Buffet,2025-03-04,Breakfast,Biryani,0.73,Improper Storage
+64,Hotel Buffet,2025-03-05,Breakfast,Paneer Curry,4.96,Expired
+65,Hotel Buffet,2025-03-06,Lunch,Bread,1.07,Customer Leftover
+66,Hotel Buffet,2025-03-07,Lunch,Paneer Curry,4.17,Improper Storage
+67,Hotel Buffet,2025-03-08,Breakfast,Bread,4.24,Preparation Waste
+68,Hotel Buffet,2025-03-09,Lunch,Bread,0.79,Preparation Waste
+69,Hotel Buffet,2025-03-10,Lunch,Upma,4.16,Plate Waste
+70,Hotel Buffet,2025-03-11,Dinner,Sambar,1.78,Customer Leftover
+71,Hotel Buffet,2025-03-12,Lunch,Biryani,3.95,Overproduction
+72,Hotel Buffet,2025-03-13,Breakfast,Noodles,0.97,Plate Waste
+73,Hotel Buffet,2025-03-14,Lunch,Rice,1.46,Expired
+74,Hotel Buffet,2025-03-15,Lunch,Sambar,1.7,Overproduction
+75,Hotel Buffet,2025-03-16,Breakfast,Fried Rice,4.73,Expired
+76,Hotel Buffet,2025-03-17,Lunch,Fried Rice,2.1,Customer Leftover
+77,Hotel Buffet,2025-03-18,Lunch,Paneer Curry,2.25,Preparation Waste
+78,Hotel Buffet,2025-03-19,Dinner,Noodles,2.46,Preparation Waste
+79,Hotel Buffet,2025-03-20,Breakfast,Pizza,3.79,Customer Leftover
+80,Hotel Buffet,2025-03-21,Dinner,Dosa,2.08,Plate Waste
+81,Hotel Buffet,2025-03-22,Breakfast,Rice,1.56,Overproduction
+82,Hotel Buffet,2025-03-23,Breakfast,Sambar,2.41,Overproduction
+83,Hotel Buffet,2025-03-24,Lunch,Idli,1.53,Preparation Waste
+84,Hotel Buffet,2025-03-25,Dinner,Upma,4.92,Expired
+85,Hotel Buffet,2025-03-26,Dinner,Upma,4.11,Preparation Waste
+86,Hotel Buffet,2025-03-27,Lunch,Biryani,4.87,Preparation Waste
+87,Hotel Buffet,2025-03-28,Lunch,Biryani,3.24,Preparation Waste
+88,Hotel Buffet,2025-03-29,Breakfast,Bread,4.18,Preparation Waste
+89,Hotel Buffet,2025-03-30,Breakfast,Noodles,4.28,Improper Storage
+90,Hotel Buffet,2025-03-31,Lunch,Rice,1.45,Customer Leftover
+91,Hotel Buffet,2025-04-01,Breakfast,Chicken Curry,4.95,Overproduction
+92,Hotel Buffet,2025-04-02,Breakfast,Chicken Curry,1.54,Customer Leftover
+93,Hotel Buffet,2025-04-03,Dinner,Sambar,0.74,Overproduction
+94,Hotel Buffet,2025-04-04,Breakfast,Paneer Curry,3.2,Preparation Waste
+95,Hotel Buffet,2025-04-05,Lunch,Chicken Curry,3.42,Expired
+96,Hotel Buffet,2025-04-06,Breakfast,Bread,4.14,Plate Waste
+97,Hotel Buffet,2025-04-07,Lunch,Burger,0.68,Preparation Waste
+98,Hotel Buffet,2025-04-08,Breakfast,Idli,2.76,Expired
+99,Hotel Buffet,2025-04-09,Breakfast,Chicken Curry,2.73,Plate Waste
+100,Hotel Buffet,2025-04-10,Dinner,Pasta,1.62,Preparation Waste
+101,Hotel Buffet,2025-04-11,Dinner,Idli,3.32,Preparation Waste
+102,Hotel Buffet,2025-04-12,Dinner,Noodles,3.65,Plate Waste
+103,Hotel Buffet,2025-04-13,Breakfast,Sandwich,2.31,Overproduction
+104,Hotel Buffet,2025-04-14,Lunch,Pizza,2.8,Improper Storage
+105,Hotel Buffet,2025-04-15,Lunch,Paneer Curry,2.45,Preparation Waste
+106,Hotel Buffet,2025-04-16,Lunch,Pizza,1.17,Preparation Waste
+107,Hotel Buffet,2025-04-17,Breakfast,Pizza,4.38,Overproduction
+108,Hotel Buffet,2025-04-18,Dinner,Bread,4.26,Plate Waste
+109,Hotel Buffet,2025-04-19,Dinner,Rice,4.62,Improper Storage
+110,Hotel Buffet,2025-04-20,Dinner,Dosa,3.44,Expired
+111,Hotel Buffet,2025-04-21,Breakfast,Sambar,1.87,Improper Storage
+112,Hotel Buffet,2025-04-22,Breakfast,Burger,2.08,Improper Storage
+113,Hotel Buffet,2025-04-23,Lunch,Biryani,3.78,Overproduction
+114,Hotel Buffet,2025-04-24,Breakfast,Idli,4.82,Preparation Waste
+115,Hotel Buffet,2025-04-25,Dinner,Dosa,4.78,Plate Waste
+116,Hotel Buffet,2025-04-26,Lunch,Pasta,4.74,Plate Waste
+117,Hotel Buffet,2025-04-27,Dinner,Biryani,1.07,Customer Leftover
+118,Hotel Buffet,2025-04-28,Breakfast,Idli,4.75,Customer Leftover
+119,Hotel Buffet,2025-04-29,Breakfast,Dosa,3.81,Plate Waste
+120,Hotel Buffet,2025-04-30,Dinner,Bread,0.58,Preparation Waste
+121,Hotel Buffet,2025-05-01,Lunch,Fried Rice,3.06,Overproduction
+122,Hotel Buffet,2025-05-02,Lunch,Biryani,2.45,Plate Waste
+123,Hotel Buffet,2025-05-03,Lunch,Chicken Curry,0.65,Improper Storage
+124,Hotel Buffet,2025-05-04,Breakfast,Bread,1.21,Improper Storage
+125,Hotel Buffet,2025-05-05,Dinner,Biryani,4.56,Plate Waste
+126,Hotel Buffet,2025-05-06,Breakfast,Fried Rice,3.38,Plate Waste
+127,Hotel Buffet,2025-05-07,Breakfast,Chicken Curry,1.14,Overproduction
+128,Hotel Buffet,2025-05-08,Lunch,Paneer Curry,3.45,Overproduction
+129,Hotel Buffet,2025-05-09,Lunch,Biryani,1.62,Customer Leftover
+130,Hotel Buffet,2025-05-10,Lunch,Upma,0.65,Customer Leftover
+131,Hotel Buffet,2025-05-11,Lunch,Sambar,4.59,Plate Waste
+132,Hotel Buffet,2025-05-12,Dinner,Dosa,1.29,Overproduction
+133,Hotel Buffet,2025-05-13,Breakfast,Biryani,0.55,Expired
+134,Hotel Buffet,2025-05-14,Lunch,Dosa,0.94,Overproduction
+135,Hotel Buffet,2025-05-15,Breakfast,Noodles,2.68,Expired
+136,Hotel Buffet,2025-05-16,Lunch,Bread,1.03,Customer Leftover
+137,Hotel Buffet,2025-05-17,Lunch,Biryani,2.85,Plate Waste
+138,Hotel Buffet,2025-05-18,Dinner,Fried Rice,1.31,Expired
+139,Hotel Buffet,2025-05-19,Breakfast,Pasta,1.23,Customer Leftover
+140,Hotel Buffet,2025-05-20,Breakfast,Paneer Curry,4.39,Overproduction
+141,Hotel Buffet,2025-05-21,Lunch,Dosa,2.91,Customer Leftover
+142,Hotel Buffet,2025-05-22,Dinner,Rice,1.46,Plate Waste
+143,Hotel Buffet,2025-05-23,Lunch,Upma,4.46,Expired
+144,Hotel Buffet,2025-05-24,Lunch,Burger,4.96,Customer Leftover
+145,Hotel Buffet,2025-05-25,Breakfast,Dosa,2.23,Customer Leftover
+146,Hotel Buffet,2025-05-26,Breakfast,Pasta,0.99,Overproduction
+147,Hotel Buffet,2025-05-27,Lunch,Pasta,4.84,Expired
+148,Hotel Buffet,2025-05-28,Dinner,Chicken Curry,0.9,Expired
+149,Hotel Buffet,2025-05-29,Lunch,Idli,4.9,Plate Waste
+150,Hotel Buffet,2025-05-30,Breakfast,Idli,0.51,Overproduction
+151,Hotel Buffet,2025-05-31,Breakfast,Biryani,4.25,Plate Waste
+152,Hotel Buffet,2025-06-01,Lunch,Biryani,1.38,Plate Waste
+153,Hotel Buffet,2025-06-02,Lunch,Dosa,3.24,Plate Waste
+154,Hotel Buffet,2025-06-03,Dinner,Idli,4.68,Overproduction
+155,Hotel Buffet,2025-06-04,Dinner,Idli,4.09,Expired
+156,Hotel Buffet,2025-06-05,Dinner,Sambar,3.82,Expired
+157,Hotel Buffet,2025-06-06,Lunch,Pizza,0.66,Improper Storage
+158,Hotel Buffet,2025-06-07,Dinner,Bread,1.9,Customer Leftover
+159,Hotel Buffet,2025-06-08,Lunch,Fried Rice,1.51,Preparation Waste
+160,Hotel Buffet,2025-06-09,Dinner,Rice,2.51,Preparation Waste
+161,Hotel Buffet,2025-06-10,Dinner,Noodles,2.96,Expired
+162,Hotel Buffet,2025-06-11,Breakfast,Fried Rice,1.28,Preparation Waste
+163,Hotel Buffet,2025-06-12,Lunch,Paneer Curry,3.93,Improper Storage
+164,Hotel Buffet,2025-06-13,Dinner,Burger,4.29,Customer Leftover
+165,Hotel Buffet,2025-06-14,Lunch,Burger,3.68,Improper Storage
+166,Hotel Buffet,2025-06-15,Dinner,Fried Rice,3.06,Plate Waste
+167,Hotel Buffet,2025-06-16,Lunch,Biryani,2.29,Expired
+168,Hotel Buffet,2025-06-17,Lunch,Chicken Curry,2.02,Customer Leftover
+169,Hotel Buffet,2025-06-18,Dinner,Rice,2.98,Customer Leftover
+170,Hotel Buffet,2025-06-19,Lunch,Fried Rice,3.46,Overproduction
+171,Hotel Buffet,2025-06-20,Lunch,Sambar,3.58,Plate Waste
+172,Hotel Buffet,2025-06-21,Dinner,Pizza,4.5,Expired
+173,Hotel Buffet,2025-06-22,Dinner,Dosa,4.81,Customer Leftover
+174,Hotel Buffet,2025-06-23,Dinner,Rice,2.27,Plate Waste
+175,Hotel Buffet,2025-06-24,Lunch,Rice,2.65,Expired
+176,Hotel Buffet,2025-06-25,Breakfast,Chicken Curry,4.05,Plate Waste
+177,Hotel Buffet,2025-06-26,Dinner,Paneer Curry,2.58,Customer Leftover
+178,Hotel Buffet,2025-06-27,Lunch,Dosa,0.9,Improper Storage
+179,Hotel Buffet,2025-06-28,Breakfast,Noodles,3.66,Preparation Waste
+180,Hotel Buffet,2025-06-29,Breakfast,Paneer Curry,1.47,Improper Storage
+181,Hotel Buffet,2025-06-30,Dinner,Dosa,3.12,Preparation Waste
+182,Hotel Buffet,2025-07-01,Breakfast,Pizza,3.85,Preparation Waste
+183,Hotel Buffet,2025-07-02,Dinner,Sandwich,4.32,Plate Waste
+184,Hotel Buffet,2025-07-03,Dinner,Biryani,1.91,Overproduction
+185,Hotel Buffet,2025-07-04,Dinner,Upma,3.82,Plate Waste
+186,Hotel Buffet,2025-07-05,Breakfast,Biryani,0.53,Overproduction
+187,Hotel Buffet,2025-07-06,Breakfast,Sandwich,0.68,Expired
+188,Hotel Buffet,2025-07-07,Dinner,Bread,4.75,Customer Leftover
+189,Hotel Buffet,2025-07-08,Lunch,Idli,3.63,Plate Waste
+190,Hotel Buffet,2025-07-09,Dinner,Dosa,1.64,Preparation Waste
+191,Hotel Buffet,2025-07-10,Dinner,Chicken Curry,2.5,Preparation Waste
+192,Hotel Buffet,2025-07-11,Lunch,Burger,1.3,Expired
+193,Hotel Buffet,2025-07-12,Breakfast,Fried Rice,1.69,Expired
+194,Hotel Buffet,2025-07-13,Dinner,Fried Rice,2.29,Preparation Waste
+195,Hotel Buffet,2025-07-14,Lunch,Rice,0.75,Customer Leftover
+196,Hotel Buffet,2025-07-15,Dinner,Idli,1.83,Plate Waste
+197,Hotel Buffet,2025-07-16,Breakfast,Upma,0.76,Overproduction
+198,Hotel Buffet,2025-07-17,Dinner,Rice,1.18,Customer Leftover
+199,Hotel Buffet,2025-07-18,Breakfast,Sandwich,2.17,Preparation Waste
+200,Hotel Buffet,2025-07-19,Dinner,Idli,1.89,Overproduction
+201,Hotel Buffet,2025-07-20,Breakfast,Burger,2.87,Customer Leftover
+202,Hotel Buffet,2025-07-21,Breakfast,Upma,1.73,Customer Leftover
+203,Hotel Buffet,2025-07-22,Dinner,Bread,4.46,Preparation Waste
+204,Hotel Buffet,2025-07-23,Dinner,Pasta,1.73,Plate Waste
+205,Hotel Buffet,2025-07-24,Dinner,Dosa,1.11,Customer Leftover
+206,Hotel Buffet,2025-07-25,Dinner,Fried Rice,4.31,Overproduction
+207,Hotel Buffet,2025-07-26,Lunch,Paneer Curry,2.72,Preparation Waste
+208,Hotel Buffet,2025-07-27,Dinner,Noodles,0.58,Overproduction
+209,Hotel Buffet,2025-07-28,Breakfast,Idli,2.32,Customer Leftover
+210,Hotel Buffet,2025-07-29,Dinner,Biryani,2.25,Customer Leftover
+211,Hotel Buffet,2025-07-30,Lunch,Sambar,4.79,Customer Leftover
+212,Hotel Buffet,2025-07-31,Breakfast,Sandwich,0.56,Customer Leftover
+213,Hotel Buffet,2025-08-01,Dinner,Paneer Curry,3.18,Plate Waste
+214,Hotel Buffet,2025-08-02,Dinner,Paneer Curry,4.23,Expired
+215,Hotel Buffet,2025-08-03,Breakfast,Biryani,2.54,Plate Waste
+216,Hotel Buffet,2025-08-04,Breakfast,Pasta,4.56,Expired
+217,Hotel Buffet,2025-08-05,Lunch,Upma,2.58,Improper Storage
+218,Hotel Buffet,2025-08-06,Dinner,Pizza,1.72,Overproduction
+219,Hotel Buffet,2025-08-07,Dinner,Pasta,2.61,Plate Waste
+220,Hotel Buffet,2025-08-08,Dinner,Upma,1.88,Improper Storage
+221,Hotel Buffet,2025-08-09,Breakfast,Dosa,4.17,Expired
+222,Hotel Buffet,2025-08-10,Lunch,Pasta,1.77,Expired
+223,Hotel Buffet,2025-08-11,Breakfast,Upma,3.53,Improper Storage
+224,Hotel Buffet,2025-08-12,Dinner,Upma,1.22,Customer Leftover
+225,Hotel Buffet,2025-08-13,Dinner,Rice,3.44,Customer Leftover
+226,Hotel Buffet,2025-08-14,Breakfast,Burger,1.85,Customer Leftover
+227,Hotel Buffet,2025-08-15,Breakfast,Paneer Curry,4.27,Preparation Waste
+228,Hotel Buffet,2025-08-16,Lunch,Noodles,0.69,Plate Waste
+229,Hotel Buffet,2025-08-17,Breakfast,Idli,1.6,Preparation Waste
+230,Hotel Buffet,2025-08-18,Breakfast,Burger,4.26,Preparation Waste
+231,Hotel Buffet,2025-08-19,Breakfast,Sandwich,3.93,Plate Waste
+232,Hotel Buffet,2025-08-20,Dinner,Bread,3.04,Expired
+233,Hotel Buffet,2025-08-21,Breakfast,Dosa,0.73,Improper Storage
+234,Hotel Buffet,2025-08-22,Dinner,Burger,0.89,Customer Leftover
+235,Hotel Buffet,2025-08-23,Dinner,Rice,4.4,Plate Waste
+236,Hotel Buffet,2025-08-24,Dinner,Bread,1.24,Improper Storage
+237,Hotel Buffet,2025-08-25,Lunch,Burger,3.46,Improper Storage
+238,Hotel Buffet,2025-08-26,Breakfast,Fried Rice,1.78,Overproduction
+239,Hotel Buffet,2025-08-27,Breakfast,Pasta,0.57,Improper Storage
+240,Hotel Buffet,2025-08-28,Breakfast,Pasta,1.52,Preparation Waste
+241,Hotel Buffet,2025-08-29,Dinner,Pizza,4.87,Customer Leftover
+242,Hotel Buffet,2025-08-30,Breakfast,Rice,1.63,Expired
+243,Hotel Buffet,2025-08-31,Lunch,Chicken Curry,4.3,Expired
+244,Hotel Buffet,2025-09-01,Lunch,Paneer Curry,0.94,Expired
+245,Hotel Buffet,2025-09-02,Breakfast,Burger,3.57,Customer Leftover
+246,Hotel Buffet,2025-09-03,Breakfast,Upma,2.03,Preparation Waste
+247,Hotel Buffet,2025-09-04,Lunch,Biryani,2.96,Improper Storage
+248,Hotel Buffet,2025-09-05,Lunch,Pizza,4.36,Overproduction
+249,Hotel Buffet,2025-09-06,Lunch,Chicken Curry,3.92,Preparation Waste
+250,Hotel Buffet,2025-09-07,Lunch,Bread,2.23,Customer Leftover
+251,Hotel Buffet,2025-09-08,Dinner,Rice,4.77,Customer Leftover
+252,Hotel Buffet,2025-09-09,Lunch,Dosa,1.64,Overproduction
+253,Hotel Buffet,2025-09-10,Lunch,Chicken Curry,4.09,Overproduction
+254,Hotel Buffet,2025-09-11,Dinner,Dosa,1.42,Improper Storage
+255,Hotel Buffet,2025-09-12,Dinner,Upma,3.59,Overproduction
+256,Hotel Buffet,2025-09-13,Lunch,Dosa,4.39,Overproduction
+257,Hotel Buffet,2025-09-14,Breakfast,Fried Rice,4.81,Improper Storage
+258,Hotel Buffet,2025-09-15,Breakfast,Bread,2.6,Expired
+259,Hotel Buffet,2025-09-16,Lunch,Fried Rice,4.54,Expired
+260,Hotel Buffet,2025-09-17,Lunch,Paneer Curry,1.83,Plate Waste
+261,Hotel Buffet,2025-09-18,Breakfast,Burger,2.17,Customer Leftover
+262,Hotel Buffet,2025-09-19,Lunch,Chicken Curry,2.11,Preparation Waste
+263,Hotel Buffet,2025-09-20,Dinner,Dosa,2.96,Preparation Waste
+264,Hotel Buffet,2025-09-21,Breakfast,Sambar,3.99,Plate Waste
+265,Hotel Buffet,2025-09-22,Breakfast,Upma,4.04,Preparation Waste
+266,Hotel Buffet,2025-09-23,Breakfast,Idli,0.57,Improper Storage
+267,Hotel Buffet,2025-09-24,Breakfast,Chicken Curry,3.86,Customer Leftover
+268,Hotel Buffet,2025-09-25,Lunch,Burger,4.92,Preparation Waste
+269,Hotel Buffet,2025-09-26,Breakfast,Paneer Curry,3.91,Overproduction
+270,Hotel Buffet,2025-09-27,Dinner,Dosa,2.92,Plate Waste
+271,Hotel Buffet,2025-09-28,Lunch,Rice,3.31,Expired
+272,Hotel Buffet,2025-09-29,Dinner,Idli,4.37,Preparation Waste
+273,Hotel Buffet,2025-09-30,Dinner,Noodles,3.17,Plate Waste
+274,Hotel Buffet,2025-10-01,Dinner,Sandwich,3.02,Expired
+275,Hotel Buffet,2025-10-02,Breakfast,Rice,4.19,Plate Waste
+276,Hotel Buffet,2025-10-03,Lunch,Idli,1.1,Improper Storage
+277,Hotel Buffet,2025-10-04,Lunch,Pasta,3.76,Expired
+278,Hotel Buffet,2025-10-05,Lunch,Chicken Curry,0.89,Improper Storage
+279,Hotel Buffet,2025-10-06,Lunch,Rice,4.92,Customer Leftover
+280,Hotel Buffet,2025-10-07,Breakfast,Upma,0.93,Overproduction
+281,Hotel Buffet,2025-10-08,Dinner,Pasta,2.01,Customer Leftover
+282,Hotel Buffet,2025-10-09,Breakfast,Pizza,3.34,Overproduction
+283,Hotel Buffet,2025-10-10,Lunch,Pasta,1.86,Overproduction
+284,Hotel Buffet,2025-10-11,Dinner,Bread,4.96,Plate Waste
+285,Hotel Buffet,2025-10-12,Dinner,Biryani,0.64,Customer Leftover
+286,Hotel Buffet,2025-10-13,Lunch,Dosa,3.77,Plate Waste
+287,Hotel Buffet,2025-10-14,Breakfast,Fried Rice,2.92,Overproduction
+288,Hotel Buffet,2025-10-15,Dinner,Sambar,4.71,Plate Waste
+289,Hotel Buffet,2025-10-16,Dinner,Pasta,3.44,Overproduction
+290,Hotel Buffet,2025-10-17,Breakfast,Fried Rice,4.5,Plate Waste
+291,Hotel Buffet,2025-10-18,Dinner,Upma,2.18,Overproduction
+292,Hotel Buffet,2025-10-19,Dinner,Idli,4.12,Improper Storage
+293,Hotel Buffet,2025-10-20,Dinner,Dosa,4.85,Improper Storage
+294,Hotel Buffet,2025-10-21,Dinner,Upma,1.85,Customer Leftover
+295,Hotel Buffet,2025-10-22,Breakfast,Sandwich,3.33,Plate Waste
+296,Hotel Buffet,2025-10-23,Dinner,Bread,2.6,Expired
+297,Hotel Buffet,2025-10-24,Dinner,Paneer Curry,2.04,Overproduction
+298,Hotel Buffet,2025-10-25,Dinner,Pizza,2.39,Improper Storage
+299,Hotel Buffet,2025-10-26,Lunch,Pasta,4.21,Overproduction
+300,Hotel Buffet,2025-10-27,Dinner,Rice,1.38,Preparation Waste
+301,Hotel Buffet,2025-10-28,Lunch,Sandwich,4.72,Overproduction
+302,Hotel Buffet,2025-10-29,Dinner,Fried Rice,1.14,Improper Storage
+303,Hotel Buffet,2025-10-30,Breakfast,Sambar,4.0,Overproduction
+304,Hotel Buffet,2025-10-31,Breakfast,Upma,4.48,Plate Waste
+305,Hotel Buffet,2025-11-01,Breakfast,Paneer Curry,1.73,Preparation Waste
+306,Hotel Buffet,2025-11-02,Lunch,Pizza,2.77,Improper Storage
+307,Hotel Buffet,2025-11-03,Breakfast,Burger,3.67,Plate Waste
+308,Hotel Buffet,2025-11-04,Dinner,Idli,1.55,Expired
+309,Hotel Buffet,2025-11-05,Breakfast,Bread,3.61,Improper Storage
+310,Hotel Buffet,2025-11-06,Lunch,Pasta,3.66,Expired
+311,Hotel Buffet,2025-11-07,Breakfast,Fried Rice,1.88,Expired
+312,Hotel Buffet,2025-11-08,Dinner,Bread,2.99,Plate Waste
+313,Hotel Buffet,2025-11-09,Dinner,Biryani,2.05,Overproduction
+314,Hotel Buffet,2025-11-10,Lunch,Biryani,2.63,Customer Leftover
+315,Hotel Buffet,2025-11-11,Breakfast,Burger,1.11,Customer Leftover
+316,Hotel Buffet,2025-11-12,Dinner,Fried Rice,2.14,Overproduction
+317,Hotel Buffet,2025-11-13,Dinner,Dosa,2.8,Expired
+318,Hotel Buffet,2025-11-14,Lunch,Dosa,4.38,Improper Storage
+319,Hotel Buffet,2025-11-15,Breakfast,Sandwich,2.04,Expired
+320,Hotel Buffet,2025-11-16,Lunch,Rice,2.75,Expired
+321,Hotel Buffet,2025-11-17,Breakfast,Sambar,1.5,Plate Waste
+322,Hotel Buffet,2025-11-18,Lunch,Bread,1.1,Plate Waste
+323,Hotel Buffet,2025-11-19,Lunch,Paneer Curry,3.12,Overproduction
+324,Hotel Buffet,2025-11-20,Dinner,Idli,3.77,Preparation Waste
+325,Hotel Buffet,2025-11-21,Dinner,Pasta,2.69,Improper Storage
+326,Hotel Buffet,2025-11-22,Dinner,Noodles,3.39,Plate Waste
+327,Hotel Buffet,2025-11-23,Breakfast,Pasta,0.84,Overproduction
+328,Hotel Buffet,2025-11-24,Breakfast,Rice,2.39,Customer Leftover
+329,Hotel Buffet,2025-11-25,Dinner,Idli,0.98,Overproduction
+330,Hotel Buffet,2025-11-26,Dinner,Chicken Curry,4.28,Expired
+331,Hotel Buffet,2025-11-27,Breakfast,Burger,3.49,Improper Storage
+332,Hotel Buffet,2025-11-28,Breakfast,Sambar,1.5,Preparation Waste
+333,Hotel Buffet,2025-11-29,Lunch,Dosa,4.99,Overproduction
+334,Hotel Buffet,2025-11-30,Dinner,Dosa,2.32,Overproduction
+335,Hotel Buffet,2025-12-01,Lunch,Pizza,0.72,Expired
+336,Hotel Buffet,2025-12-02,Breakfast,Bread,4.16,Improper Storage
+337,Hotel Buffet,2025-12-03,Lunch,Pasta,1.62,Preparation Waste
+338,Hotel Buffet,2025-12-04,Lunch,Idli,4.9,Improper Storage
+339,Hotel Buffet,2025-12-05,Breakfast,Pizza,4.66,Overproduction
+340,Hotel Buffet,2025-12-06,Lunch,Bread,4.44,Expired
+341,Hotel Buffet,2025-12-07,Dinner,Upma,4.78,Plate Waste
+342,Hotel Buffet,2025-12-08,Lunch,Fried Rice,2.52,Plate Waste
+343,Hotel Buffet,2025-12-09,Breakfast,Sambar,1.35,Overproduction
+344,Hotel Buffet,2025-12-10,Breakfast,Fried Rice,2.93,Overproduction
+345,Hotel Buffet,2025-12-11,Dinner,Sambar,0.95,Overproduction
+346,Hotel Buffet,2025-12-12,Breakfast,Fried Rice,0.79,Customer Leftover
+347,Hotel Buffet,2025-12-13,Breakfast,Sandwich,2.51,Plate Waste
+348,Hotel Buffet,2025-12-14,Dinner,Idli,4.07,Improper Storage
+349,Hotel Buffet,2025-12-15,Breakfast,Pasta,1.03,Plate Waste
+350,Hotel Buffet,2025-12-16,Dinner,Rice,3.2,Improper Storage
+351,Hotel Buffet,2025-12-17,Lunch,Noodles,1.96,Improper Storage
+352,Hotel Buffet,2025-12-18,Breakfast,Dosa,4.24,Overproduction
+353,Hotel Buffet,2025-12-19,Lunch,Idli,2.48,Overproduction
+354,Hotel Buffet,2025-12-20,Lunch,Bread,0.62,Preparation Waste
+355,Hotel Buffet,2025-12-21,Breakfast,Pasta,3.88,Improper Storage
+356,Hotel Buffet,2025-12-22,Dinner,Chicken Curry,3.3,Expired
+357,Hotel Buffet,2025-12-23,Dinner,Idli,3.9,Improper Storage
+358,Hotel Buffet,2025-12-24,Lunch,Pizza,2.53,Overproduction
+359,Hotel Buffet,2025-12-25,Breakfast,Upma,4.02,Improper Storage
+360,Hotel Buffet,2025-12-26,Dinner,Sandwich,2.19,Improper Storage
+361,Hotel Buffet,2025-12-27,Lunch,Paneer Curry,4.23,Overproduction
+362,Hotel Buffet,2025-12-28,Dinner,Sambar,1.64,Preparation Waste
+363,Hotel Buffet,2025-12-29,Lunch,Pasta,4.22,Improper Storage
+364,Hotel Buffet,2025-12-30,Dinner,Biryani,1.57,Plate Waste
+365,Hotel Buffet,2025-12-31,Lunch,Dosa,2.6,Plate Waste

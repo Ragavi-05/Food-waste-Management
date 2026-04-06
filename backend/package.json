@@ -1,0 +1,15 @@
+{
+  "name": "food-waste-backend",
+  "version": "1.0.0",
+  "description": "Backend for Food Waste Management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0"
+  }
+}

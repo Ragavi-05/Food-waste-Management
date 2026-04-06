@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Waste Data | FoodWaste AI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-leaf"></i>
+            <span>FoodWaste AI</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="dashboard.html" class="nav-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="add-data.html" class="nav-item active">
+                <i class="fas fa-plus-circle"></i>
+                <span>Add Waste Data</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-calendar-day"></i>
+                <span>Daily Logs</span>
+            </a>
+            <a href="prediction.html" class="nav-item">
+                <i class="fas fa-robot"></i>
+                <span>AI Predictions</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-chart-bar"></i>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>Add Waste Data</h1>
+            <p>Log your daily food waste data for better tracking and insights</p>
+        </header>
+
+        <div class="form-container">
+            <div class="form-card">
+                <form id="waste-form" class="waste-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">
+                                <i class="fas fa-calendar"></i> Date
+                            </label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="meal-type">
+                                <i class="fas fa-utensils"></i> Meal Type
+                            </label>
+                            <select id="meal-type" name="mealType" required>
+                                <option value="">Select Meal Type</option>
+                                <option value="breakfast">Breakfast</option>
+                                <option value="lunch">Lunch</option>
+                                <option value="dinner">Dinner</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="food-item">
+                            <i class="fas fa-hamburger"></i> Food Item
+                        </label>
+                        <input type="text" id="food-item" name="foodItem" placeholder="e.g., Rice, Curry, Bread" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="prepared-qty">
+                                <i class="fas fa-weight"></i> Prepared Quantity (kg)
+                            </label>
+                            <input type="number" id="prepared-qty" name="preparedQty" step="0.01" min="0" placeholder="0.00" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="consumed-qty">
+                                <i class="fas fa-check-circle"></i> Consumed Quantity (kg)
+                            </label>
+                            <input type="number" id="consumed-qty" name="consumedQty" step="0.01" min="0" placeholder="0.00" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="waste-qty">
+                            <i class="fas fa-trash-alt"></i> Waste Quantity (kg)
+                        </label>
+                        <input type="number" id="waste-qty" name="wasteQty" step="0.01" min="0" placeholder="Auto-calculated" readonly>
+                        <small class="form-hint">Automatically calculated: Prepared - Consumed</small>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="location">
+                                <i class="fas fa-map-marker-alt"></i> Location
+                            </label>
+                            <select id="location" name="location" required>
+                                <option value="">Select Location</option>
+                                <option value="hotel">Hotel</option>
+                                <option value="restaurant">Restaurant</option>
+                                <option value="canteen">Canteen</option>
+                                <option value="hostel">Hostel</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="reason">
+                                <i class="fas fa-question-circle"></i> Reason for Waste
+                            </label>
+                            <select id="reason" name="reason" required>
+                                <option value="">Select Reason</option>
+                                <option value="over-preparation">Over Preparation</option>
+                                <option value="poor-quality">Poor Quality</option>
+                                <option value="leftovers">Leftovers</option>
+                                <option value="expired">Expired</option>
+                                <option value="customer-rejection">Customer Rejection</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Submit Data
+                        </button>
+                        <button type="reset" class="btn btn-secondary btn-large">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+
+
+

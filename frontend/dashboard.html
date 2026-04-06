@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | FoodWaste AI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fas fa-leaf"></i>
+            <span>FoodWaste AI</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="dashboard.html" class="nav-item active">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="add-data.html" class="nav-item">
+                <i class="fas fa-plus-circle"></i>
+                <span>Add Waste Data</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-calendar-day"></i>
+                <span>Daily Logs</span>
+            </a>
+            <a href="prediction.html" class="nav-item">
+                <i class="fas fa-robot"></i>
+                <span>AI Predictions</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fas fa-chart-bar"></i>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>Dashboard</h1>
+            <div class="header-actions">
+                <span class="user-info">
+                    <i class="fas fa-user-circle"></i>
+                    <span>John Doe</span>
+                </span>
+            </div>
+        </header>
+
+        <!-- Dashboard Cards -->
+        <div class="dashboard-cards">
+            <div class="dashboard-card">
+                <div class="card-icon blue">
+                    <i class="fas fa-weight"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Today's Waste</h3>
+                    <p class="card-value">12.5 kg</p>
+                    <span class="card-change positive">
+                        <i class="fas fa-arrow-down"></i> 15% less than yesterday
+                    </span>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <div class="card-icon green">
+                    <i class="fas fa-calendar-week"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Total Waste This Week</h3>
+                    <p class="card-value">87.3 kg</p>
+                    <span class="card-change positive">
+                        <i class="fas fa-arrow-down"></i> 8% less than last week
+                    </span>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <div class="card-icon red">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Cost Lost Due to Waste</h3>
+                    <p class="card-value">$245.50</p>
+                    <span class="card-change negative">
+                        <i class="fas fa-arrow-up"></i> This week
+                    </span>
+                </div>
+            </div>
+
+            <div class="dashboard-card warning">
+                <div class="card-icon orange">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="card-content">
+                    <h3>AI Prediction Warning</h3>
+                    <p class="card-value">High waste expected tomorrow</p>
+                    <span class="card-change">
+                        <i class="fas fa-info-circle"></i> Reduce preparation by 10%
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="charts-section">
+            <div class="chart-card">
+                <h3>Daily Waste Trend</h3>
+                <canvas id="lineChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Category-wise Waste</h3>
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+
